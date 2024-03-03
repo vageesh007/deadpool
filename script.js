@@ -1,3 +1,4 @@
+
 let signupbtn = document.querySelector('.signupbtn');
 let signinbtn = document.querySelector('.signinbtn');
 let namefield = document.querySelector('.namefield');
@@ -13,7 +14,6 @@ signinbtn.addEventListener('click',()=>{
     signupbtn.classList.add('disable');
     signinbtn.classList.remove('disable');
     underline.style.transform = 'translateX(35px)';
-
 });
 
 
@@ -24,9 +24,5 @@ signupbtn.addEventListener('click',()=>{
     signupbtn.classList.remove('disable');
     signinbtn.classList.add('disable');
     underline.style.transform = 'translateX(0px)';
-
 });
-
-
-
 
