@@ -9,17 +9,17 @@ let text = document.querySelector('.text');
 
 signinbtn.addEventListener('click',()=>{
     namefield.style.maxHeight = "0";
-    title.innerHTML = 'sign in';
+    title.innerHTML = 'Sign in';
     text.innerHTML = 'lost password';
     signupbtn.classList.add('disable');
     signinbtn.classList.remove('disable');
-    underline.style.transform = 'translateX(35px)';
+    underline.style.transform = 'translateX(100px)';
 });
 
 
 signupbtn.addEventListener('click',()=>{
     namefield.style.maxHeight = "60px";
-    title.innerHTML = 'sign up';
+    title.innerHTML = 'Sign up';
     text.innerHTML= 'use your brain again ';
     signupbtn.classList.remove('disable');
     signinbtn.classList.add('disable');
